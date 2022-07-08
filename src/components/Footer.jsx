@@ -10,17 +10,21 @@ export const Footer = () => {
       <Container style={{ transform: "translateY(2rem)" }}>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
+            <span class="my-name">Rehmatulla Khan</span>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/rehmatulla/" target="_blank">
                 <img src={navIcon1} alt="Icon" />
               </a>
-              <a href="#">
+              {/* <a href="#">
                 <img src={navIcon2} alt="Icon" />
-              </a>
-              <a href="#">
+              </a> */}
+              <a
+                href="https://www.instagram.com/rehmatulla_khan_/"
+                target="_blank"
+              >
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>

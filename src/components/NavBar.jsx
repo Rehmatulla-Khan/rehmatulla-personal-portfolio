@@ -31,7 +31,8 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" />
+          {/* <img src={logo} alt="Logo" /> */}
+          <span class="my-name">Rehmatulla Khan</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -68,18 +69,27 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
-                <img src={navIcon1} alt="" />
+              <a href="https://www.linkedin.com/in/rehmatulla/" target="_blank">
+                <img src={navIcon1} alt="Icon" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
-              </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              {/* <a href="#">
+                <img src={navIcon2} alt="Icon" />
+              </a> */}
+              <a
+                href="https://www.instagram.com/rehmatulla_khan_/"
+                target="_blank"
+              >
+                <img src={navIcon3} alt="Icon" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Let’s Connect</span>
+            <button className="vvd">
+              <a
+                href="https://www.linkedin.com/in/rehmatulla/"
+                target="_blank"
+                style={{ textDecoration: "none" }}
+              >
+                <span className="connect">Let’s Connect</span>
+              </a>
             </button>
           </span>
         </Navbar.Collapse>
