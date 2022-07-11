@@ -151,6 +151,18 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #000;
 }
 
+.project-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.project-:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
