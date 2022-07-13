@@ -64,6 +64,7 @@ export const Projects = () => {
                     style={{
                       textDecoration: "underline",
                       letterSpacing: "0.6rem",
+                      textAlign: "center",
                     }}
                   >
                     PROJECTS
