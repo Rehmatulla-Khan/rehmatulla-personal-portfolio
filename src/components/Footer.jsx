@@ -21,12 +21,12 @@ export const Footer = () => {
               {/* <a href="#">
                 <img src={navIcon2} alt="Icon" />
               </a> */}
-              <a
+              {/* <a
                 href="https://www.instagram.com/rehmatulla_khan_/"
                 target="_blank"
               >
                 <img src={navIcon3} alt="Icon" />
-              </a>
+              </a> */}
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
